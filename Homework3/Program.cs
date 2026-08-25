@@ -33,7 +33,7 @@
             {
                 for (int j = 1; j <= 5; j++)
                 {
-                    Console.Write(i * j + " ");
+                    Console.Write(i * j + "\t");
                 }
 
                 Console.WriteLine();
@@ -49,6 +49,7 @@
             {
                 Console.WriteLine("Enter password:");
                 input = Console.ReadLine();
+                (while (input != password && attempts < 3))
             }
             while (input != password);
         }
